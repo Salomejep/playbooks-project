@@ -1,0 +1,33 @@
+2024-06-17 22:51:09.102 [info] 
+
+
+
+
+2024-06-17 22:51:09.119 [info] Extension host agent started.
+2024-06-17 22:51:09.176 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-06-17 22:51:09.187 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-06-17 22:51:09.290 [info] [<unknown>][a4f527c4][ManagementConnection] New connection established.
+2024-06-17 22:51:09.338 [info] [<unknown>][eeb17cfd][ExtensionHostConnection] New connection established.
+2024-06-17 22:51:10.148 [info] [<unknown>][eeb17cfd][ExtensionHostConnection] <2780> Launched Extension Host Process.
+2024-06-17 22:51:20.579 [info] [<unknown>][b0d830c2][ExtensionHostConnection] New connection established.
+2024-06-17 22:51:20.586 [info] [<unknown>][b0d830c2][ExtensionHostConnection] <2999> Launched Extension Host Process.
+2024-06-17 22:51:20.588 [info] [<unknown>][508d2500][ManagementConnection] New connection established.
+2024-06-17 22:51:22.751 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/ec2-user/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:55:30556)
+    at A.updateTitle (/home/ec2-user/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:55:25756)
+    at R.D.<computed> (/home/ec2-user/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:55:21031)
+    at Object.call (/home/ec2-user/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5367)
+    at a.s (/home/ec2-user/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5482)
+    at a.q (/home/ec2-user/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4923)
+    at m.value (/home/ec2-user/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4223)
+    at r.y (/home/ec2-user/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:29:668)
+    at r.fire (/home/ec2-user/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:29:885)
+    at process.$e (/home/ec2-user/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-17 22:56:09.121 [info] New EH opened, aborting shutdown
+2024-06-17 22:56:09.122 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/out/vs/server/node/server.main.js:191:6373)
+    at process.emit (node:events:518:28)
+2024-06-17 22:56:20.764 [info] [<unknown>][eeb17cfd][ExtensionHostConnection] <2780> Extension Host Process exited with code: 0, signal: null.
