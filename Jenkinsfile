@@ -14,7 +14,7 @@ pipeline{
             steps{
                 sh 'curl -uadmin:AP8gcgmmset5jeYChTJYDN6XmDd -T \
                  ansible-${BUILD_ID}.zip \
-                  "http://44.193.76.77:8081/artifactory/ansible/ansible-${BUILD_ID}.zip"'
+                  "http://44.193.76.77:8081/artifactory/ansible/ansible-dev-${BUILD_ID}.zip"'
             }
         }
         stage('publish ansible syntax'){
