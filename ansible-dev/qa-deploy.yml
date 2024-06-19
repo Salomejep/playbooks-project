@@ -15,7 +15,7 @@
 
 
     - name: Kill Running app
-      shell: kill -9 pid_output.stdout
+      shell: kill -9 {{ pid_output.stdout }}
       when: pid_output.stdout != ''
 
     - name: Download new artifact 
