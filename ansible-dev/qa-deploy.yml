@@ -10,10 +10,9 @@
         state: absent
 
     - name: get the PID
-      shell: lsof -i :8082
-      register: pid_output
-
-
+      shell: lsof -t -i :8082
+      register: pid_output     
+   
     - name: Kill Running app
       shell: "kill -9 {{ pid_output.stdout }}"
       when: pid_output.stdout != ''
